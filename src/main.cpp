@@ -11,7 +11,6 @@ Adafruit_VL53L0X lox = Adafruit_VL53L0X();
 unsigned long _lastIncReadTime = micros(); 
 unsigned long _lastDecReadTime = micros(); 
 int _pauseLength = 25000;
-int _fastIncrement = 1;
 int _increment = 100;
 
 // Variables for PID
